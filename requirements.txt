@@ -1,0 +1,7 @@
+matplotlib>=3.6.2
+numpy>=1.23.5
+Pillow>=9.3.0
+tqdm>=4.64.1
+wandb>=0.13.5
+opencv-python>=4.9.0
+tifffile>=2023.4.12
