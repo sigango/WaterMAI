@@ -4,7 +4,7 @@ This is the official github page of the WaterMAI dataset and benchmarking implem
 
 >[WaterMAI: A Vietnamese Multispectral Aerial Imagery Dataset for Water Body Detection]().
 
-> Hoang V. Pham, Linh P. Ngo, Long N. Bui, Khanh D. Tran, Hien B. Vo, Thirumalaisamy P. Velavan
+> Hoang V. Pham, Linh P. Ngo, Long N. Bui, Hien B. Vo, Khanh D. Tran, Thirumalaisamy P. Velavan
 
 ## WaterMAI Dataset Specification
 - The structure of `train` and `test` folder are the same
