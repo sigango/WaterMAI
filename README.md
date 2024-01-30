@@ -50,6 +50,13 @@ WaterMAI_dataset
         └── mask_co
             └── ...
 ```
+## Example
+- 1st row contains raw RGB images
+- 2nd row contains raw NIR images
+- In the 3rd row, the 1st two images are the segmentation mask resulted from MSNet model, and the other two images is the bounding box prediction resulted from Yolov7 model
+- 4th row contains the ground truth of segmentation mask and bounding box
+
+<img src="./images/TestImgOuput.png" alt="drawing" width="" height=""/>
 
 ## Setup
 
