@@ -51,18 +51,19 @@ WaterMAI_dataset
             └── ...
 ```
 ## Example
-- 1st row contains raw RGB images
-- 2nd row contains raw NIR images
-- In the 3rd row, the 1st two images are the segmentation mask resulted from MSNet model, and the other two images is the bounding box prediction resulted from Yolov7 model
-- 4th row contains the ground truth of segmentation mask and bounding box
+Please download the WaterMAI dataset from [**WaterMAI_dataset**](https://drive.google.com/file/d/1Mz9kcKh5ZbxWeyloS_3EbYFFkkTqySz5/view?usp=drive_link)
+- 1st column contains raw RGB images
+- 2nd column contains raw NIR images
+- 3rd column contains the ground truth segmentation
+- 4th column contains Unet result from RGB images (3 channels)
+- 5th column contains Unet result from RGB + NIR images (4 channels)
+- 6th column contains Unet result from RGB + Green + NIR + NDWI images (6 channels)
 
-<img src="./images/TestImgOuput.png" alt="drawing" width="" height=""/>
+<img src="./images/segment_visualization.png" alt="drawing" width="" height=""/>
 
 ## Setup
 
 > The implementation is developped and successfully run on Ubuntu 20.04; Python 3.9; GPU: RTX 2060 6G VRAM
-
-Please download the WaterMAI dataset from [**WaterMAI_dataset**](https://drive.google.com/file/d/1Mz9kcKh5ZbxWeyloS_3EbYFFkkTqySz5/view?usp=drive_link)
 
 Please download the weights of MSNet, RTFNet and UNet models with each modality combination and save them in `weights` folder
 
