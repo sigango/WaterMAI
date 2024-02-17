@@ -4,7 +4,7 @@ This is the official github page of the WaterMAI dataset and benchmarking implem
 
 >[Use of low-cost drones to map arbovirus vector habitats with multispectral aerial imagery]().
 
-> Hoang V. Pham, Linh P. Ngo, Long N. Bui, Hien B. Vo, Thirumalaisamy P. Velavan, Khanh D. Tran
+> Pham Viet Hoang, Ngo Phuc Linh, Bui Ngoc Long, Vo Bich Hien, Thirumalaisamy P. Velavan, Tran Duc Khanh
 
 ## WaterMAI Dataset Specification
 - The structure of `train` and `test` folder are the same
