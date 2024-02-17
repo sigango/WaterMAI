@@ -2,9 +2,9 @@
 
 This is the official github page of the WaterMAI dataset and benchmarking implementation described in the following paper.
 
->[WaterMAI: A Vietnamese Multispectral Aerial Imagery Dataset for Water Body Detection]().
+>[Use of low-cost drones to map arbovirus vector habitats with multispectral aerial imagery]().
 
-> Hoang V. Pham, Linh P. Ngo, Long N. Bui, Hien B. Vo, Khanh D. Tran, Thirumalaisamy P. Velavan
+> Hoang V. Pham, Linh P. Ngo, Long N. Bui, Hien B. Vo, Thirumalaisamy P. Velavan, Khanh D. Tran
 
 ## WaterMAI Dataset Specification
 - The structure of `train` and `test` folder are the same
