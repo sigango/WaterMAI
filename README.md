@@ -7,7 +7,7 @@ This is the official github page of the WaterMAI dataset and benchmarking implem
 > Pham Viet Hoang, Ngo Phuc Linh, Bui Ngoc Long, Vo Bich Hien, Thirumalaisamy P. Velavan, Tran Duc Khanh
 
 ## WaterMAI Dataset Specification
-Please download the WaterMAI dataset from [**WaterMAI_dataset**](https://drive.google.com/file/d/1Mz9kcKh5ZbxWeyloS_3EbYFFkkTqySz5/view?usp=drive_link)
+Please download the WaterMAI dataset from [**WaterMAI_dataset**](https://drive.google.com/file/d/1Mz9kcKh5ZbxWeyloS_3EbYFFkkTqySz5/view?usp=drive_link) and orthomosaic images from [**WaterMAI Orthomosaic**](https://drive.google.com/drive/folders/1ibAqoicHApP8f5G7uiAym4Lti5mGdZXH?usp=sharing)
 - The structure of `train` and `test` folder are the same
 - Folder `color` and `ir` in `labels` folder are the bounding box labels (YOLO type) of WaterMAI dataset. The difference between 2 folders is only the name of each file.
 - Folder `mask_co` in `labels` folder is the segmentation label mask of WaterMAI dataset.
