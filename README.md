@@ -115,6 +115,13 @@ To perform the training of  **MSNet**, **RTFNet** and **UNet** models on the Wat
 If you find this repo useful for your research, please consider citing our paper:
 
 ```bibtex
-Hoang, P. V., Linh, N. P., Long, B. N., Hien, V. B., Velavan, T. P., & Khanh, T. D. (2024). Use of low-cost drones to map arbovirus vector habitats with multispectral aerial imagery.. https://doi.org/10.21203/rs.3.rs-3950831/v1
+@article{10.21203/rs.3.rs-3950831/v1,
+  author = {Hoang, P. V. and Linh, N. P. and Long, B. N. and Hien, V. B. and Velavan, T. P. and Khanh, T. D.},
+  title = {Use of low-cost drones to map arbovirus vector habitats with multispectral aerial imagery},
+  year = {2024},
+  doi = {10.21203/rs.3.rs-3950831/v1}
+}
 ```
+---
+
 
