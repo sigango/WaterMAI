@@ -2,12 +2,12 @@
 
 This is the official github page of the WaterMAI dataset and benchmarking implementation described in the following paper.
 
->[Use of low-cost drones to map arbovirus vector habitats with multispectral aerial imagery]().
+>[Use of low-cost drones to map arbovirus vector habitats with multispectral aerial imagery](https://www.researchsquare.com/article/rs-3950831/v1).
 
 > Pham Viet Hoang, Ngo Phuc Linh, Bui Ngoc Long, Vo Bich Hien, Thirumalaisamy P. Velavan, Tran Duc Khanh
 
 ## WaterMAI Dataset Specification
-Please download the WaterMAI dataset from [**WaterMAI_dataset**](https://drive.google.com/file/d/1Mz9kcKh5ZbxWeyloS_3EbYFFkkTqySz5/view?usp=drive_link) and orthomosaic images from [**WaterMAI Orthomosaic**](https://drive.google.com/drive/folders/1ibAqoicHApP8f5G7uiAym4Lti5mGdZXH?usp=sharing)
+Please download the WaterMAI dataset from [**WaterMAI_dataset**](https://drive.google.com/drive/folders/1zCrWx5W28sIlagELhq2dGZcSfTzNbghP?usp=sharing) and orthomosaic images from [**WaterMAI Orthomosaic**](https://drive.google.com/drive/folders/1ibAqoicHApP8f5G7uiAym4Lti5mGdZXH?usp=sharing)
 - The structure of `train` and `test` folder are the same
 - Folder `color` and `ir` in `labels` folder are the bounding box labels (YOLO type) of WaterMAI dataset. The difference between 2 folders is only the name of each file.
 - Folder `mask_co` in `labels` folder is the segmentation label mask of WaterMAI dataset.
@@ -52,14 +52,14 @@ WaterMAI_dataset
             └── ...
 ```
 ## Example
+<img src="./images/segment_visualization.png" alt="drawing" width="" height=""/>
+
 - 1st column contains raw RGB images
 - 2nd column contains raw NIR images
 - 3rd column contains the ground truth segmentation
 - 4th column contains Unet result from RGB images (3 channels)
 - 5th column contains Unet result from RGB + NIR images (4 channels)
 - 6th column contains Unet result from RGB + Green + NIR + NDWI images (6 channels)
-
-<img src="./images/segment_visualization.png" alt="drawing" width="" height=""/>
 
 ## Setup
 
@@ -115,6 +115,6 @@ To perform the training of  **MSNet**, **RTFNet** and **UNet** models on the Wat
 If you find this repo useful for your research, please consider citing our paper:
 
 ```bibtex
-
+Hoang, P. V., Linh, N. P., Long, B. N., Hien, V. B., Velavan, T. P., & Khanh, T. D. (2024). Use of low-cost drones to map arbovirus vector habitats with multispectral aerial imagery.. https://doi.org/10.21203/rs.3.rs-3950831/v1
 ```
 
